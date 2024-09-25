@@ -1,0 +1,20 @@
+.m{
+    border: 1px solid rgb(239, 231, 231);
+
+}
+.n{
+    border-radius: 100px;
+}
+.a{
+  background-color: rgb(237, 237, 245)  ;
+}
+.g{
+  background-color: white;
+  border: 1px solid white;
+}
+.c{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3px;
+}

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="..\/css/tnimc.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <!-- </div>
+    <h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+<h2>position: fixed;</h2>
+
+
+<div class="fixed">
+this no move: fixed;
+</div>
+
+
+    <h1>this is position:satic</h1>
+    <p>statc positon element are not affected by the top</p>
+    <div class="static">this element has position:satic</div>
+
+    <div class="max-waith">
+        <div>this max waith 999 waith move  next waith no move</div>
+        <div>nhdjdsj</div>
+        <div>kdoijwihcjninjb</div>
+    </div>
+    <div class="max-waith">
+        <div>this max waith 999 waith move  next waith no move</div>
+        <div>nhdjdsj</div>
+        <div>kdoijwihcjninjb</div>
+    </div>   
+<div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+<div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+
+<div class="color">
+    this text color
+</div>
+<div class="color">
+    this text color
+</div>
+
+<div class="background">
+    this background
+</div>
+<div class="ab">
+<h2>Individual Border Sides</h2>
+<p>2 different border styles.</p>
+</div>
+<div class="ab">
+    <h2>Individual Border Sides</h2>
+    <p>2 different border styles.</p>
+    </div>
+<div class="parent">
+<h2>CSS Margins</h2>
+
+<div>The margin .</div>
+</div>
+<div class="parent">
+    <h2>CSS Margins</h2>
+    
+    <div>The margin .</div>
+    </div>
+    <div class="mck">
+<h2>Using individual padding properties</h2>
+
+<div>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+    </div>
+
+    <div class="mck">
+        <h2>Using individual padding properties</h2>
+        
+        <div>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+            </div>
+
+<div class="hi">
+    
+<h2>CSS height and width properties</h2>
+
+<div>This div element has a height of 50 pixels and a width of 100%.</div>
+
+</div>
+
+<div class="hi">
+    
+    
+    <div>This div element has a height of 50 pixels and a width of 100%.</div>
+    
+    </div>
+    <div class="solid">
+    <p>A solid outline</p>
+</div>
+<div class="text">
+    <div>
+        <h1>text fromatting</h1>
+        <p>This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
+        The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored
+        <a target="_blank" href="tryit.asp?filename=trycss_text">"Try it Yourself"</a> link.</p>
+      </div>
+   </div>
+        <div class="parent1">
+            <img src="data:image/jpeg;base64,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" alt="">
+        </div>
+        <table >
+            <tr>
+              <th>so.n</th>
+              <th>the name</th>
+              <th>funny name </th>
+              <th>Lastname</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>billa</td>
+              <td>bot</td>
+              <td>AK</td>     
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>JLLA</td>
+              <td>BOT</td>
+              <td>VJ</td>
+            </tr>
+          </table>
+
+
+        <div class="aling">
+            <div>mohamed asaraf</div>
+            <div>this aling</div>
+        </div>
+          
+        
+<div class="f">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">indan</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    
+      <input type="submit" value="Enter">
+    </form>
+  </div>
+  <div class="l"> <h1>Services we do</h1></div>
+<section class="boxx">
+  <div class="box">
+    <div><h2> Get Dedicated Team</h2></div>
+    <div>Work with us to shape a professional offshore team. Together, we'll bring your dream project to existence! </div>
+</div>
+
+<div class="box">
+  <div><h2> Get Dedicated Team</h2></div>
+  <div>Work with us to shape a professional offshore team. Together, we'll bring your dream project to existence! </div>
+</div>
+
+<div class="box">
+  <div><h2> Get Dedicated Team</h2></div>
+  <div>Work with us to shape a professional offshore team. Together, we'll bring your dream project to existence! </div>
+</div>
+</div>
+<div class="box">
+  <div><h2> Get Dedicated Team</h2></div>
+  <div>Work with us to shape a professional offshore team. Together, we'll bring your dream project to existence! </div>
+</div>
+</div>
+<div class="box">
+  <div><h2> Get Dedicated Team</h2></div>
+  <div>Work with us to shape a professional offshore team. Together, we'll bring your dream project to existence! </div>
+</div>
+</div>
+</section>
+<h1>The z-index </h1>
+<img src="https://th.bing.com/th/id/OIP.XeDp5SDJJL5ajss_JDzjMgHaGt?rs=1&pid=ImgDetMain" alt="s">
+<p>Because the  it will be placed behind the heading.</p> -->
+
+  <div class="container py-5 d-none ">
+    <div class="text-center fw-bold py-2 a">Unboxing Nexevo</div>
+    <img class="w-100 py-5 b " src="../assets/image/Screenshot_1-8-2024_11566_www.nexevo.in.jpeg" alt="">
+  </div>
+  <section>
+    <div class="container d-none ">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 py-3">
+          <div class="box text-center">
+            <div class="fw-bold fs-2 ">10th</div>
+            <div class="fw-bold ">Year</div>
+            <div>Running successfully.</div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 py-3">
+          <div class="box text-center">
+
+            <div class="fw-bold fs-2 ">500+</div>
+            <div class="fw-bold ">Projects launched</div>
+            <div>For SMEs, MSMEs, and Large-scale industries.</div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 py-3">
+          <div class="box text-center">
+
+            <div class="fw-bold  fs-2">75+</div>
+            <div class="fw-bold ">Experts</div>
+            <div>Coded 5M+ of lines..</div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 py-3">
+          <div class="box text-center">
+
+            <div class="fw-bold fs-2 ">15+</div>
+            <div class="fw-bold ">Countries served</div>
+            <div>Our creatives/codes browsing by millions of people without fear of security.</div>
+          </div >
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container d-none">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="d-flex border border-dark rounded-3">
+            <div>
+              <img class="img me-3" src="https://www.nexevo.in/images/since/innovative-design-philosophy.png" alt="">
+            </div>
+            <div class="p-3">
+              <h2>Innovative Design Philosophy</h2>
+              <p>At Nexevo, our Innovative design philosophy is the cornerstone of our website designing and development
+                endeavors. We fuse creativity and technology to sculpt captivating online experiences that resonate with
+                users. Embracing cutting-edge trends and visionary concepts, we redefine the digital landscape, crafting
+                websites that inspire and engage.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="border border-dark rounded-3 unique w-100 ">
+            <h2>Solutions unique to your needs</h2>
+            <div>Experience the epitome of digital craftsmanship with our unique customized website solutions, tailored
+              to perfection for your website designing and development needs. At our core, we blend artistry and
+              innovation to sculpt captivating online experiences that transcend expectations. Unleash the power of
+              tailored design and development with us, where every pixel is infused with purpose and precision.</div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-4">
+        <div class="col-md-5">
+          <div class="border border-dark rounded-3 p-3">
+            <h2>Adept Team of Visionaries</h2>
+            <div>Experience the epitome of digital craftsmanship with our unique customized website solutions, tailored
+              to perfection for your website designing and development needs. At our core, we blend artistry and
+              innovation to sculpt captivating online experiences that transcend expectations. Unleash the power of
+              tailored design and development with us, where every pixel is infused with purpose and precision.</div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="d-flex border border-dark rounded-3 ">
+            <div>
+              <img class="img me-3" src="https://www.nexevo.in/images/since/pioneering-success-stories.png" alt="">
+            </div>
+            <div class="p-3">
+              <h2>Pioneering Success Stories</h2>
+              <p>From conceptualization to execution, our exclusive and unique approach ensures unparalleled excellence
+                in every project. Join us as we continue to pioneer the future of website design and development, one
+                success story at a time only at Nexevo which is known as the best website design company in Bangalore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="d-flex border border-dark rounded-3">
+          <div class="">
+            <img class="img1 me-3  rounded-3" src="https://www.nexevo.in/images/since/client-centric-brilliance.png"
+              alt="">
+          </div>
+          <div class="p-3 d-flex justify-content-center flex-column ">
+            <h2>Client-Centric Brilliance</h2>
+            <p>With unwavering dedication, we prioritize your vision, needs, and aspirations, ensuring that every pixel
+              and line of code reflects your unique identity for your website. Our commitment to excellence goes beyond
+              aesthetics, fostering dynamic collaborations and delivering digital solutions that resonate with your
+              audience. Experience the difference with Nexevo, where your success is our ultimate goal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="sec d-none">
+      <div class="container">
+        <div class="fs-1 text-white bg-secondary text-end">akash</div>
+        <div class="fs-2 m-5">akash</div>
+        <div class="fs-3">akash</div>
+        <div class="fs-4">akash</div>
+      </div>
+
+      <button class="btn px-5 py-1 d-none">
+        <a class="text-decoration-none  text-dark"
+          href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_styles&stacked=h">send</a>
+      </button>
+
+    </section>
+    <div class="container d-none ">
+      <div class="row">
+        div.col-sm-
+      </div>
+    </div>
+    <audio control class="d-none">
+      <source src="">
+    </audio>
+    <section>
+      <div class="container d-none">
+        <div class="fw-bold text-center py-4 fs-1">We Offer Diverse Web Development Services beyond Par</div>
+        <div class="fs-4">We offer high quality development services that are proven to meet client demands no matter
+          what.
+          Our team of skilled developers strives their best to facilitate the website of your desire and elevate your
+          business consistently. </div>
+        <div class="row mt-5">
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-danger ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100 " src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+                </div>
+                <div class="fw-bold">
+                  <p> UI/UX Icon
+                    UI / UX Design and Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-info ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-php.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <p> PHP Web Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-success ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-csm.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <p> CSM Web Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-info ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-wordpress.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <p> World Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-warning ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-joomla.png" alt="">
+                </div>
+                <div class="fw-bold d-flex justify-content-center align-items-center">
+                  <p>Joomla Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-danger ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-magento.png" alt="">
+                </div>
+                <div class="fw-bold d-flex justify-content-center align-items-center">
+                  <samp>Magento Development</samp>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-warning ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid" src="https://www.nexevo.in/images/services-opencart.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <samp>OpenCart Development</samp>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-danger">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-payment.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <p>Payment Gateway Integration</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-success">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-ecommerce.png" alt="">
+                </div>
+                <div class="fw-bold d-flex justify-content-center align-items-center">
+                  <p>Ecommerce Solutions </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-info ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/services-redesign.png" alt="">
+                </div>
+                <div class="fw-bold d-flex justify-content-center align-items-center">
+                  <p>Website Redesigning
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-3 col-xl-4 ">
+            <div class="card bg-danger ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid" src="https://www.nexevo.in/images/services-mainten.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <samp>Website Maintenance</samp>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-3 col-xl-4 ">
+            <div class="card bg-danger ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid" src="https://www.nexevo.in/images/services-mainten.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <samp>Website Maintenance</samp>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-success">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/web-application-development.png"
+                    alt="">
+                </div>
+                <div class="fw-bold d-flex justify-content-center align-items-center">
+                  <p>Web Application Development </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-info ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid w-100" src="https://www.nexevo.in/images/saas-development.png" alt="">
+                </div>
+                <div class="fw-bold d-flex justify-content-center align-items-center">
+                  <p>SaaS Development
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+            <div class="card bg-danger ">
+              <div class="d-flex p-3">
+                <div class="me-3">
+                  <img class="img-fluid" src="https://www.nexevo.in/images/software-development.png" alt="">
+                </div>
+                <div class="fw-bold justify-content-center  d-flex align-items-center ">
+                  <samp>Custom Software Development</samp>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="my-3 d-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3 pt-3 pt-lg-0 ">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 pt-3 pt-lg-0">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 pt-3 pt-lg-0">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 pt-3 pt-lg-0 ">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3  py-3">
+            <div class="bg-danger d-flex  align-items-center ">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3  py-3">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3  py-3">
+            <div class="bg-danger d-flex  align-items-center ">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3  py-3">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 pt-3 pt-lg-0">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 pt-3 pt-lg-0">
+            <div class="bg-danger d-flex  align-items-center">
+              <img class="w-100" src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div> UI/UX IconUI / UX Design and Development</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="bg d-none">
+      <div class="container  ">
+        <div class="row">
+          <div class="col-6 col-lg-3  my-3">
+            <div class="card">
+              <img class="w-100" src="https://www.nexevo.in/images/blog/best-website-development-in-bangalore.png"
+                alt="">
+              <div class="px-2">
+                <div class="py-2">08 August 2024</div>
+                <div class="fw-bold  ">How to make your website more accessible to visually impaired</div>
+                <div class="py-2">All website owners primarily aim to gather as many guests as they can on their
+                  website. In
+                  order to... Read Blog</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 my-3">
+            <div class="card">
+              <img class="w-100" src="https://www.nexevo.in/images/blog/Digital-Marketing-Companies-in-Bangalore.png"
+                alt="">
+              <div class="px-2">
+                <div class="py-2">08 August 2024</div>
+                <div class="fw-bold ">Why Digital Marketing is Important in 2024?</div>
+                <div class="py-2">Digital marketing has undergone a lot of transformation since its inception. Now, it
+                  is not just li...
+
+                  Read Blog</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 my-3">
+            <div class="card">
+              <img class="w-100" src="https://www.nexevo.in/images/blog/find-best-magento-developer.jpg" alt="">
+              <div class="px-2">
+                <div class="py-2">08 August 2024</div>
+                <div class="fw-bold ">Creative Approaches to Finding the Best Magento Developer</div>
+                <div class="py-2">IntroductionIn today&rsquo;s tech-savvy world,web-based retail is rapidly growing and
+                  providing us ...
+
+                  Read Blog</div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-6 col-lg-3 my-3">
+            <div class="card">
+              <img class="w-100" src="https://www.nexevo.in/images/blog/seo-service-companies-bangalore.png" alt="">
+              <div class="px-2">
+                <div class="py-2">08 August 2024</div>
+                <div class="fw-bold ">Relationship between Organic Rankings and Social Shares</div>
+                <div class="py-2">This is one of the most important and challenging aspects of everyone in the search
+                  engine optimiza...
+
+                  Read Blog
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-3">
+      <div class="container d-none">
+        <div class="row">
+
+          <div class="col-6 col-lg-3 py-3 ">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 asaraf">
+              <img src="https://www.nexevo.in/images/services-ui-ux.png" alt="">
+              <div>UI / UX Design and Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3 ">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 b">
+              <img src="https://www.nexevo.in/images/services-php.png" alt="">
+              <div>PHP Web Development
+
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 l">
+              <img src="https://www.nexevo.in/images/services-csm.png" alt="">
+              <span>CMS Website Development</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 k">
+              <img src="https://www.nexevo.in/images/services-wordpress.png" alt="">
+              <div>WordPress Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 y">
+              <img src="https://www.nexevo.in/images/services-joomla.png" alt="">
+              <div>Joomla Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 o">
+              <img src="https://www.nexevo.in/images/services-magento.png" alt="">
+              <div>Magento Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 e">
+              <img src="https://www.nexevo.in/images/services-opencart.png" alt="">
+              <div>OpenCart Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 r">
+              <img src="https://www.nexevo.in/images/services-payment.png" alt="">
+              <div>WordPress Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 t">
+              <img src="https://www.nexevo.in/images/services-ecommerce.png" alt="">
+              <div>WordPress Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 k">
+              <img src="https://www.nexevo.in/images/services-redesign.png" alt="">
+              <div>Website Redesigning</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 s">
+              <img src="https://www.nexevo.in/images/services-mainten.png" alt="">
+              <div>Website Maintenance</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 j">
+              <img src="https://www.nexevo.in/images/services-mobile.png" alt="">
+              <div>Mobile Application Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 k">
+              <img src="https://www.nexevo.in/images/web-application-development.png" alt="">
+              <div>Web Application Development</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 z">
+              <img src="https://www.nexevo.in/images/saas-development.png" alt="">
+              <div>SaaS Development </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 py-3">
+            <div class="d-flex align-items-center gap-lg-3 p-3  rounded-3 o">
+              <img src="https://www.nexevo.in/images/software-development.png" alt="">
+              <div>Custom Software Development</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-4 qq d-none ">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-3">
+            <div class="fw-bold text-white fs-3 py-3 p-5">Locations</div>
+            <div class="text-white py-2 p-5  ">Bangalore (Head Office)</div>
+            <div class="p-5 py-2">
+              <div class="text-white ">1st Floor, 112, 2nd Cross Rd, East of NGEF Layout,Kasturi Nagar,</div>
+              <div class="text-white ">Bangalore, Karnataka 560043</div>
+            </div>
+          </div>
+          <div class="col-3 py-5">
+            <div class="text-white   ">Saudi Arabia</div>
+            <div class="text-white ">Business Commercial Center, 4th Floor, Room Number 405, King Khalid St, Sharafiya,
+              Jeddah, K.S.A.</div>
+          </div>
+          <div class="col-3 py-2">
+            <div class="text-white fs-4 fw-bold   ">Quick Links</div>
+            <div class="text-white py-3 ">Extension</div>
+            <img
+              src="https://images.dmca.com/Badges/dmca_protected_sml_120b.png?ID=3747cd15-a632-4344-8d77-29e8cbb3abe1"
+              alt="">
+          </div>
+          <br>
+          <hr class="text-warning  hrcode">
+          <div class="text-white fw-bold py-4 ps-3">Terms and conditions <samp class="p-5"> Privacy policy </samp></div>
+
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <div class="container-fluid bg  py-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 ">
+          <div class="fw-bold text-white fs-1 py-3  p-3">Our Previous Works</div>
+          <div class="fs-2   p-3  text-white">Over the past 10 years, Nexevo Technologies has worked hard to acquire the
+            title of a prominent <span class="webd ">web development company in India.</span> Having launched 500+
+            projects in various industries, we make sure to contribute the best to bring your dreams to reality.</div>
+          <div class="py-3 p-3 ">
+            <button type="button" class="btn btn-outline-warning text-white px-5 ">Enquire Now</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12  col-lg-6">
+          <img class="w-100 px-3" src="https://www.nexevo.in/cache/com_mb2portfolio/goWOLO.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <section class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 px-3 py-3 ">
+            <img class="w-100 rounded-top" src="https://www.nexevo.in/cache/com_mb2portfolio/mercury-ng_480x320.png"
+              alt="">
+            <div class="d-flex justify-content-between po py-4 text-dark">
+              <div class="fw-bold px-3 fs-4    ">Mercury-ng</div>
+              <a href="#" class="text-dark fw-bold px-3  fs-4">View Site</a>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-lg-6 px-3 py-3">
+            <img class="w-100" src="https://www.nexevo.in/cache/com_mb2portfolio/mercury-world.jpg" alt="">
+            <div class="d-flex justify-content-between po py-4 text-dark">
+              <div class="fw-bold px-3 fs-4    ">Mercury-ng</div>
+              <a href="#" class="text-dark fw-bold px-3  fs-4">View Site</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 px-2 py-3 ">
+            <img class="w-100" src="https://www.nexevo.in/cache/com_mb2portfolio/krishibazaar.png" alt="">
+            <div class="d-flex justify-content-between po py-4 text-dark">
+              <div class="fw-bold px-3 fs-4h">Mercury-ng</div>
+              <a href="#" class="text-dark fw-bold px-3  fs-4">View Site</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 px-3 py-3">
+            <img class="w-100" src="https://www.nexevo.in/cache/com_mb2portfolio/lenscares.png" alt="">
+            <div class="d-flex justify-content-between po py-4 text-dark">
+              <div class="fw-bold px-3 fs-4">Mercury-ng</div>
+              <a href="#" class="text-dark fw-bold px-3  fs-4">View Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="parent">
+      <div class="container py-4">
+        <div class="row">
+          <div class="pr d-flex justify-content-between py-4">
+            <div class="col-10 vvv">
+              <div class="fw-bold fs-1 px-5     py-4">Do you want to collaborate with us?</div>
+            </div>
+            <div class="col-2 py-4 m-3  ">
+              <button type="button" class="btn btn-warning  px-5 ">Get Started</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg">
+        <div class="fw-bold fs-3 text-center py-4 text-white">Why choose us?</div>
+        <div class="text-center">
+          <img class="w-50 px-5  " src="https://www.nexevo.in/images/portfolio_choose_img.png " alt="">
+
+        </div>
+      </div>
+
+
+    </section>
+    
+</body>
+
+</html>

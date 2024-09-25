@@ -1,0 +1,288 @@
+/*   
+.box2{
+    padding: 20px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+   
+    
+
+}div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+.static{
+   
+    background-color: rgb(255, 174, 0);
+    position: sticky;
+    top: 0;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    
+}
+
+
+ 
+ .max-waith {
+    background-color: aquamarine;
+    color: white;
+    height: 136px;
+    max-width: 900px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+  
+  #overflowTest {
+    background: #4CAF50;
+    color: rgb(210, 198, 198);
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  } 
+  div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+  .color{
+    color: aqua;
+  }
+  .background{
+    background-color: aquamarine;
+  }
+  .ab {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+  }
+  .parent{
+    margin: 70px;
+    border: 1px solid #4CAF50;
+  }
+  .mck{
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  .hi{
+      height: 50px;
+  width: 100%;
+  border: 1px solid #4CAF50;
+  }
+  .solid{
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: grey;
+  }
+  .text{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+
+  
+  table, th, td {
+    border: 1px solid;
+  }
+  .aling{
+    text-align: center;
+
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #638765;
+  }
+  
+  .f{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .l{
+    padding: 20px;
+    text-align: center;
+  }
+  .box {
+    height: 244px;
+    width: 146px;
+    border: 1px solid rgb(223, 18, 86);
+    padding: 20px;
+    border-radius: 40px;
+}
+.boxx{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  gap: 20px;
+ 
+  
+}
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  } */
+   /* .a{ */
+    /* font-size:50px ;
+   }
+   .b{
+    background-color: rgb(255, 251, 251);
+  
+   }
+   
+
+
+   .box {
+    height: 170px;
+    width: 245px;
+    border: 1px solid #c3efef;
+    background-color: #c3efef;
+    border-radius: 20px ;
+}
+.box:hover{
+  background-color: yellow;
+}
+.gg{
+  font-size: 40px;
+}
+
+
+.v{
+  height: 100px;
+  width: 100px;
+  border: 3px solid white;
+}
+.img{
+  width: 230px;
+  height:300PX;
+}
+.img1{
+  width: 350px;
+  height: 300px;
+}
+.unique{
+  padding: 35px;
+}
+.sec{
+  height: 100vh;
+  
+}
+.bg{
+  background-color: #eceaea;
+
+}
+.card{
+  min-height: 338px;
+}
+.asaraf{
+  background-color: #ffd2d9;
+}
+.b{
+  background-color: #cbefff;
+}
+.l{
+  background-color: #bdffe4   ;
+}
+.k{
+  background-color: #cbefff;
+
+}
+.y{
+  background-color: #e1ffc9;
+}
+.o{
+  background-color: #ffd4c1;
+}
+.e{
+  background-color: #e7ffc9;
+}
+.r{
+  background-color: #ffd2d9;
+}
+.t{
+  background-color: #bdffe4;
+}
+.s{
+  background-color: #ffd2d9
+
+  ;
+}
+.j{
+  background-color: #e1ffc9;
+}
+.z{
+  background-color: #e1ffc9;
+}
+.qq{
+  background-color: #404145;
+}
+.hrcode{
+  padding: 1px 0px 1px 0px; 
+  background-color: rgb(252, 216, 74);
+}
+.bg{
+  background-color: #021f61;
+}
+.webd{
+ border-bottom: 2px solid yellow;
+}
+.webd:hover{
+ border: none;
+ background-color: yellow;
+ transition: all 4s;
+}
+.po{
+  background-color: #f3f7ff;
+}
+.pr{
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px;
+}
+.vvv{
+  color: #011f60;
+} */

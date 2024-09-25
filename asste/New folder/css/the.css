@@ -1,0 +1,51 @@
+.A{
+    background-color: #1f1e24;
+}
+.nav-link :hover{
+    color: yellow !important;
+}
+.text{
+    
+   margin-top: 335px;
+}
+.color{
+    background-color: rgb(240, 238, 238);
+}
+.bg{
+    background-color: white;
+}
+.parent{
+    background-color: white;
+}
+
+.bg:hover:after{
+    content: "";
+    background-color: yellow;
+}
+.bad{
+    border-radius: 150px;
+    padding: 40px;
+    
+}
+.img{
+    background-image: url("../assets/image/imges55.jpeg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.img::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.parant{
+padding-top: 250px;
+}
+.f{
+    font-size: 30px;
+}
+

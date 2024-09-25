@@ -1,0 +1,149 @@
+/* .e {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(189, 211, 233);
+}
+
+.e  > div {
+  background-color: #8b1c1c;
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.a {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.a > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.j > {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.wrapper {overflow: auto;}
+
+#main {margin-left: 4px;}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+
+#menulist {
+  margin: 0;
+  padding: 0;
+}
+
+.menuitem {
+  background: #CDF0F6;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+.f {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: aqua;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #d738b0;
+}
+
+.flex-container>div {
+  background-color: aqua;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.menuitem {
+  background: #CDF0F6;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+} */
+.a {
+  height: 310px;
+  width: 310px;
+  background-color: rgb(240,239,255);
+}
+.a:hover{
+  background-color: yellow;
+}
+.flextybe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.c{
+  font-size: 40px;
+}
+.m{
+  height: 360pX;
+  width: 368px;
+  border: 3PX solid violet;
+  border-radius: 30px;
+}
